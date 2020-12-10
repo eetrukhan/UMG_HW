@@ -1,0 +1,1328 @@
+﻿Log file open, 12/10/20 20:15:42
+LogInit: Display: Running engine for game: GeometryCatcher
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.171795
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Engine.ini]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Engine.ini]
+[2020.12.10-17.15.42:580][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Engine.ini]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Engine.ini]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.10-17.15.42:580][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.10-17.15.42:581][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.10-17.15.42:581][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.10-17.15.42:581][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Engine.ini]
+[2020.12.10-17.15.42:581][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Engine.ini]
+[2020.12.10-17.15.42:582][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:582][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.10-17.15.42:582][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.10-17.15.42:582][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.10-17.15.42:583][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.10-17.15.42:584][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.10-17.15.42:584][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.10-17.15.42:584][  0]LogHAL: Display: Platform has ~ 16 GB [17013747712 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.10-17.15.42:584][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.10-17.15.42:584][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.10-17.15.42:584][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Scalability.ini]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.10-17.15.42:585][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Config/Windows/Engine.ini]
+[2020.12.10-17.15.42:585][  0]LogInit: Computer: MSI
+[2020.12.10-17.15.42:585][  0]LogInit: User: 79102
+[2020.12.10-17.15.42:585][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.12.10-17.15.42:585][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.10-17.15.42:586][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2020.12.10-17.15.42:586][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.10-17.15.42:586][  0]LogMemory: Process Physical Memory: 115.43 MB used, 115.43 MB peak
+[2020.12.10-17.15.42:586][  0]LogMemory: Process Virtual Memory: 99.45 MB used, 99.45 MB peak
+[2020.12.10-17.15.42:586][  0]LogMemory: Physical Memory: 8661.71 MB used,  7563.87 MB free, 16225.57 MB total
+[2020.12.10-17.15.42:586][  0]LogMemory: Virtual Memory: 5167.61 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.12.10-17.15.42:622][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.10-17.15.42:647][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.10-17.15.42:648][  0]LogInit: Using OS detected language (ru-RU).
+[2020.12.10-17.15.42:648][  0]LogInit: Using OS detected locale (ru-RU).
+[2020.12.10-17.15.42:651][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2020.12.10-17.15.42:651][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+[2020.12.10-17.15.42:651][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+[2020.12.10-17.15.42:651][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+[2020.12.10-17.15.42:652][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+[2020.12.10-17.15.42:652][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+[2020.12.10-17.15.42:652][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+[2020.12.10-17.15.42:652][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+[2020.12.10-17.15.42:653][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.10-17.15.42:687][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.10-17.15.42:687][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.10-17.15.42:878][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.12.10-17.15.42:878][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.10-17.15.42:878][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.10-17.15.42:878][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.10-17.15.42:947][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2020.12.10-17.15.42:947][  0]LogD3D11RHI:       5980/0/8112 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.12.10-17.15.42:969][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.12.10-17.15.42:969][  0]LogD3D11RHI:       128/0/8112 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.12.10-17.15.42:971][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.10-17.15.42:971][  0]LogD3D11RHI:       0/0/8112 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.10-17.15.42:971][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.10-17.15.43:008][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.10-17.15.43:008][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2020.12.10-17.15.43:008][  0]LogWindows: EnumDisplayDevices:
+[2020.12.10-17.15.43:008][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.12.10-17.15.43:008][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.12.10-17.15.43:008][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.12.10-17.15.43:009][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.12.10-17.15.43:009][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.12.10-17.15.43:009][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.12.10-17.15.43:009][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.12.10-17.15.43:009][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.12.10-17.15.43:010][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2020.12.10-17.15.43:010][  0]LogD3D11RHI:   Driver Version: 431.70 (internal:26.21.14.3170, unified:431.70)
+[2020.12.10-17.15.43:010][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.12.10-17.15.43:010][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2020.12.10-17.15.43:056][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.10-17.15.43:057][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.12.10-17.15.43:058][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.10-17.15.43:058][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.10-17.15.43:075][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.12.10-17.15.43:326][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.10-17.15.43:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.10-17.15.43:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.10-17.15.43:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.10-17.15.43:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.10-17.15.43:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.10-17.15.43:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.10-17.15.43:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.10-17.15.43:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.10-17.15.43:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.10-17.15.43:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.10-17.15.43:364][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.10-17.15.43:364][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.10-17.15.43:373][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.10-17.15.43:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.10-17.15.43:388][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.10-17.15.43:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.10-17.15.43:404][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.10-17.15.43:411][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.10-17.15.43:419][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.10-17.15.43:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.10-17.15.43:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.10-17.15.43:454][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.10-17.15.43:454][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.10-17.15.43:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.10-17.15.43:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.10-17.15.43:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.10-17.15.43:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.10-17.15.43:485][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.10-17.15.43:491][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.10-17.15.43:539][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Intermediate/Shaders/WorkingDirectory/106624/).
+[2020.12.10-17.15.43:539][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/79102/AppData/Local/Temp/UnrealShaderWorkingDir/FD07A042433567B030466381C71B8CAE/'.
+[2020.12.10-17.15.43:539][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.10-17.15.43:540][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.10-17.15.43:540][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.10-17.15.44:191][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.10-17.15.44:234][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/79102/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.10-17.15.44:234][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/79102/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.10-17.15.44:235][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.10-17.15.44:235][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.10-17.15.44:235][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.10-17.15.44:235][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.10-17.15.44:244][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.10-17.15.44:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.10-17.15.44:244][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.10-17.15.44:245][  0]LogDerivedDataCache: Using Local data cache path C:/Users/79102/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.10-17.15.44:245][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.10-17.15.44:245][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.10-17.15.44:290][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.10-17.15.44:290][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.10-17.15.44:313][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2020.12.10-17.15.44:503][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.10-17.15.44:597][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.10-17.15.44:597][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.10-17.15.44:597][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.10-17.15.44:597][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.10-17.15.44:597][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.10-17.15.44:608][  0]LogNetVersion: GeometryCatcher 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1837946982)
+[2020.12.10-17.15.44:961][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000015211469980), frame # 0
+[2020.12.10-17.15.44:961][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000152113B8F40), frame # 0
+[2020.12.10-17.15.44:963][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015211418A00), frame # 0
+[2020.12.10-17.15.44:998][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.030603 seconds
+[2020.12.10-17.15.45:002][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.12.10-17.15.45:002][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.12.10-17.15.45:002][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.10-17.15.45:264][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.10-17.15.45:268][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.10-17.15.45:327][  0]SourceControl: Source control is disabled
+[2020.12.10-17.15.45:328][  0]SourceControl: Source control is disabled
+[2020.12.10-17.15.45:330][  0]SourceControl: Source control is disabled
+[2020.12.10-17.15.45:332][  0]SourceControl: Source control is disabled
+[2020.12.10-17.15.45:338][  0]SourceControl: Source control is disabled
+[2020.12.10-17.15.45:524][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.10-17.15.45:539][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.10-17.15.45:539][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.10-17.15.45:578][  0]LogOcInput: OculusInput pre-init called
+[2020.12.10-17.15.45:586][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.12.10-17.15.45:586][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.12.10-17.15.45:636][  0]LogEngine: Initializing Engine...
+[2020.12.10-17.15.45:682][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.12.10-17.15.45:682][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.12.10-17.15.45:683][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.12.10-17.15.45:781][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.10-17.15.45:788][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.10-17.15.45:788][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015217691C00), frame # 0
+[2020.12.10-17.15.45:788][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000152176A6840), frame # 0
+[2020.12.10-17.15.45:793][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.10-17.15.45:793][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.10-17.15.45:793][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.10-17.15.45:793][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.10-17.15.45:793][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.10-17.15.45:793][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.10-17.15.45:793][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.10-17.15.45:793][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.10-17.15.45:793][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.10-17.15.45:793][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.10-17.15.45:875][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.10-17.15.45:875][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.10-17.15.45:875][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.10-17.15.45:875][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.10-17.15.45:875][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.12.10-17.15.45:875][  0]LogAudioMixer: Display: 5: BackRight
+[2020.12.10-17.15.45:875][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.12.10-17.15.45:875][  0]LogAudioMixer: Display: 7: SideRight
+[2020.12.10-17.15.46:148][  0]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.12.10-17.15.46:150][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.10-17.15.46:153][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.10-17.15.46:153][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.10-17.15.46:153][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.10-17.15.46:154][  0]LogInit: FAudioDevice initialized.
+[2020.12.10-17.15.46:155][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.10-17.15.46:222][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/79102/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.10-17.15.46:225][  0]LogInit: Texture streaming: Enabled
+[2020.12.10-17.15.46:237][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.10-17.15.46:237][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.10-17.15.46:240][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.10-17.15.46:279][  0]LogInit: Transaction tracking system initialized
+[2020.12.10-17.15.46:295][  0]BlueprintLog: New page: Editor Load
+[2020.12.10-17.15.46:347][  0]LocalizationService: Localization service is disabled
+[2020.12.10-17.15.46:480][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.10-17.15.46:480][  0]LogCook: Display: Mobile HDR setting 1
+[2020.12.10-17.15.46:582][  0]LogFileCache: Scanning file cache for directory 'C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Content/' took 0.00s
+[2020.12.10-17.15.46:768][  0]SourceControl: Source control is disabled
+[2020.12.10-17.15.46:768][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.418
+[2020.12.10-17.15.46:768][  0]Cmd: MAP LOAD FILE="../../../../../../Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Content/GeometryCatcher/Maps/TutorialMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.10-17.15.46:768][  0]LightingResults: New page: Lighting Build
+[2020.12.10-17.15.46:769][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-17.15.46:769][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-17.15.46:769][  0]MapCheck: New page: Map Check
+[2020.12.10-17.15.46:769][  0]LightingResults: New page: Lighting Build
+[2020.12.10-17.15.46:778][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015217691C00), frame # 0
+[2020.12.10-17.15.46:778][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000152176A6840), frame # 0
+[2020.12.10-17.15.46:779][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.12.10-17.15.46:871][  0]LogAIModule: Creating AISystem for world TutorialMap
+[2020.12.10-17.15.46:871][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015217967E00), frame # 0
+[2020.12.10-17.15.46:871][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000015217688540), frame # 0
+[2020.12.10-17.15.46:873][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.10-17.15.46:883][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.12.10-17.15.46:883][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.10-17.15.46:883][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,129ms to complete.
+[2020.12.10-17.15.46:883][  0]LogFileHelpers: Loading map 'TutorialMap' took 0.115
+[2020.12.10-17.15.46:884][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.534
+[2020.12.10-17.15.47:033][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-17.15.47:040][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-17.15.47:045][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-17.15.47:051][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-17.15.47:062][  0]LogCollectionManager: Loaded 0 collections in 0.001469 seconds
+[2020.12.10-17.15.47:091][  0]LogFileCache: Scanning file cache for directory 'C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Collections/' took 0.00s
+[2020.12.10-17.15.47:091][  0]LogFileCache: Scanning file cache for directory 'C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Content/Developers/79102/Collections/' took 0.00s
+[2020.12.10-17.15.47:091][  0]LogFileCache: Scanning file cache for directory 'C:/Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Content/Collections/' took 0.00s
+[2020.12.10-17.15.47:091][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3427 classes and 821 folders.
+[2020.12.10-17.15.47:099][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.10-17.15.47:225][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.12.10-17.15.47:229][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.12.10-17.15.47:398][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.10-17.15.47:401][  0]LogSlate: Took 0.000460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.10-17.15.47:406][  0]LogSlate: Took 0.000691 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.10-17.15.47:478][  0]LogRenderer: Reallocating scene render targets to support 964x584 Format 10 NumSamples 1 (Frame:1).
+[2020.12.10-17.15.47:575][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.12.10-17.15.47:575][  0]LogLoad: (Engine Initialization) Total time: 6.22 seconds
+[2020.12.10-17.15.47:575][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.10-17.15.47:621][  0]LogAssetRegistry: Asset discovery search completed in 3.3092 seconds
+[2020.12.10-17.15.47:625][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.12.10-17.15.47:627][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.12.10-17.15.47:754][  0]LogSlate: Took 0.000816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.10-17.15.48:605][ 51]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.10-17.15.53:054][298]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GeometryCatcher/UI/BP_HUD.BP_HUD
+[2020.12.10-17.15.53:299][298]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.12.10-17.15.54:083][298]LogLinker: Warning: Failed to load '/Game/GeometryCatcher/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap': Can't resolve asset name
+[2020.12.10-17.15.54:132][298]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.10-17.15.57:389][476]LogSlate: Window 'BP_HUD' being destroyed
+[2020.12.10-17.16.01:486][720]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.10-17.16.01:501][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.10-17.16.01:504][720]PIE: New page: PIE session: TutorialMap (10 дек. 2020 г., 23:16:01)
+[2020.12.10-17.16.01:505][720]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.12.10-17.16.01:507][720]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.12.10-17.16.01:507][720]LogPlayLevel: Creating play world package: /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap
+[2020.12.10-17.16.01:512][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004816s)
+[2020.12.10-17.16.01:513][720]LogAIModule: Creating AISystem for world TutorialMap
+[2020.12.10-17.16.01:513][720]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015285B4E600), frame # 720
+[2020.12.10-17.16.01:513][720]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000015285B70540), frame # 720
+[2020.12.10-17.16.01:513][720]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2020.12.10-17.16.01:513][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GeometryCatcher/Maps/TutorialMap.TutorialMap to /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.006013s)
+[2020.12.10-17.16.01:558][720]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.12.10-17.16.01:559][720]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.10-17.16.01:559][720]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.10-17.16.01:559][720]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.10-17.16.01:559][720]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.10-17.16.01:559][720]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.10-17.16.01:559][720]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.10-17.16.01:559][720]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.10-17.16.01:559][720]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.10-17.16.01:559][720]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.10-17.16.01:559][720]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.10-17.16.01:564][720]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.10-17.16.01:564][720]LogAudioMixer: Display: 1: FrontRight
+[2020.12.10-17.16.01:564][720]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.10-17.16.01:564][720]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.10-17.16.01:564][720]LogAudioMixer: Display: 4: BackLeft
+[2020.12.10-17.16.01:564][720]LogAudioMixer: Display: 5: BackRight
+[2020.12.10-17.16.01:564][720]LogAudioMixer: Display: 6: SideLeft
+[2020.12.10-17.16.01:564][720]LogAudioMixer: Display: 7: SideRight
+[2020.12.10-17.16.01:602][720]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.12.10-17.16.01:602][720]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.10-17.16.01:602][720]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.10-17.16.01:602][720]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.10-17.16.01:602][720]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.10-17.16.01:615][720]LogInit: FAudioDevice initialized.
+[2020.12.10-17.16.01:623][720]LogLoad: Game class is 'GM_Tutorial_C'
+[2020.12.10-17.16.01:624][720]LogWorld: Bringing World /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2020.12.10-20.16.01
+[2020.12.10-17.16.01:624][720]LogWorld: Bringing up level for play took: 0.000444
+[2020.12.10-17.16.01:624][720]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.12.10-17.16.01:629][720]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.12.10-17.16.01:633][720]PIE: Server logged in
+[2020.12.10-17.16.01:635][720]PIE: Play in editor total start time 0,135 seconds.
+[2020.12.10-17.16.01:915][722]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.02:211][740]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.02:512][758]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.02:812][776]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.02:887][780]LogBlueprintUserMessages: [BP_GameManager] Yellow
+[2020.12.10-17.16.02:887][780]LogBlueprintUserMessages: [BP_Shape_C_0] 4
+[2020.12.10-17.16.03:112][794]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.03:411][812]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.03:444][814]LogBlueprintUserMessages: [BP_GameManager] Pink
+[2020.12.10-17.16.03:444][814]LogBlueprintUserMessages: [BP_Shape_C_1] 3
+[2020.12.10-17.16.03:712][830]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.03:844][838]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.16.03:844][838]LogBlueprintUserMessages: [BP_Shape_C_2] 2
+[2020.12.10-17.16.04:012][848]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.04:077][852]LogBlueprintUserMessages: [BP_GameManager] Pink
+[2020.12.10-17.16.04:077][852]LogBlueprintUserMessages: [BP_Shape_C_3] 3
+[2020.12.10-17.16.04:312][866]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.04:611][884]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.04:911][902]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.05:029][909]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.16.05:029][909]LogBlueprintUserMessages: [BP_Shape_C_6] 0
+[2020.12.10-17.16.05:211][920]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.05:361][929]LogBlueprintUserMessages: [BP_GameManager] Green
+[2020.12.10-17.16.05:361][929]LogBlueprintUserMessages: [BP_Shape_C_7] 1
+[2020.12.10-17.16.05:512][938]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.05:596][943]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.16.05:596][943]LogBlueprintUserMessages: [BP_Shape_C_8] 0
+[2020.12.10-17.16.05:812][956]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.05:863][959]LogBlueprintUserMessages: [BP_GameManager] Pink
+[2020.12.10-17.16.05:863][959]LogBlueprintUserMessages: [BP_Shape_C_9] 3
+[2020.12.10-17.16.06:111][974]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.06:178][978]LogBlueprintUserMessages: [BP_GameManager] Pink
+[2020.12.10-17.16.06:178][978]LogBlueprintUserMessages: [BP_Shape_C_10] 3
+[2020.12.10-17.16.06:410][992]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.06:496][997]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.16.06:496][997]LogBlueprintUserMessages: [BP_Shape_C_11] 0
+[2020.12.10-17.16.06:711][ 10]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.06:794][ 15]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.16.06:794][ 15]LogBlueprintUserMessages: [BP_Shape_C_12] 0
+[2020.12.10-17.16.07:011][ 28]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.07:311][ 46]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.07:377][ 50]LogBlueprintUserMessages: [BP_GameManager] Green
+[2020.12.10-17.16.07:377][ 50]LogBlueprintUserMessages: [BP_Shape_C_14] 1
+[2020.12.10-17.16.07:612][ 64]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.07:645][ 66]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.16.07:645][ 66]LogBlueprintUserMessages: [BP_Shape_C_15] 2
+[2020.12.10-17.16.07:911][ 82]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.08:211][100]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.08:244][102]LogBlueprintUserMessages: [BP_GameManager] Green
+[2020.12.10-17.16.08:244][102]LogBlueprintUserMessages: [BP_Shape_C_17] 1
+[2020.12.10-17.16.08:511][118]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.08:811][136]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.08:878][140]LogBlueprintUserMessages: [BP_GameManager] Green
+[2020.12.10-17.16.08:878][140]LogBlueprintUserMessages: [BP_Shape_C_19] 1
+[2020.12.10-17.16.09:113][154]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.09:280][164]LogBlueprintUserMessages: [BP_GameManager] Green
+[2020.12.10-17.16.09:280][164]LogBlueprintUserMessages: [BP_Shape_C_20] 1
+[2020.12.10-17.16.09:411][172]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.09:577][182]LogBlueprintUserMessages: [BP_GameManager] Yellow
+[2020.12.10-17.16.09:577][182]LogBlueprintUserMessages: [BP_Shape_C_21] 4
+[2020.12.10-17.16.09:711][190]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.09:761][193]LogBlueprintUserMessages: [BP_GameManager] Pink
+[2020.12.10-17.16.09:761][193]LogBlueprintUserMessages: [BP_Shape_C_22] 3
+[2020.12.10-17.16.10:011][208]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.10:311][226]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.10:611][244]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.10:711][250]LogBlueprintUserMessages: [BP_GameManager] Pink
+[2020.12.10-17.16.10:711][250]LogBlueprintUserMessages: [BP_Shape_C_25] 3
+[2020.12.10-17.16.10:911][262]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.11:212][280]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.11:228][281]LogBlueprintUserMessages: [BP_GameManager] Pink
+[2020.12.10-17.16.11:228][281]LogBlueprintUserMessages: [BP_Shape_C_27] 3
+[2020.12.10-17.16.11:928][323]LogBlueprintUserMessages: [BP_GameManager] Yellow
+[2020.12.10-17.16.11:928][323]LogBlueprintUserMessages: [BP_Shape_C_29] 4
+[2020.12.10-17.16.12:211][340]LogBlueprintUserMessages: [BP_GameManager] Yellow
+[2020.12.10-17.16.12:211][340]LogBlueprintUserMessages: [BP_Shape_C_30] 4
+[2020.12.10-17.16.14:048][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-17.16.14:048][448]LogWorld: BeginTearingDown for /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap
+[2020.12.10-17.16.14:048][448]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-17.16.14:048][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-17.16.14:058][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.10-17.16.14:062][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-17.16.14:106][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-17.16.14:127][448]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015285B4E600), frame # 1448
+[2020.12.10-17.16.14:127][448]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000015285B70540), frame # 1448
+[2020.12.10-17.16.14:140][448]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.12.10-17.16.14:165][449]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.12.10-17.16.15:752][544]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.10-17.16.15:763][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.10-17.16.15:763][544]PIE: New page: PIE session: TutorialMap (10 дек. 2020 г., 23:16:15)
+[2020.12.10-17.16.15:787][544]LogPlayLevel: Creating play world package: /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap
+[2020.12.10-17.16.15:790][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002308s)
+[2020.12.10-17.16.15:790][544]LogAIModule: Creating AISystem for world TutorialMap
+[2020.12.10-17.16.15:790][544]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001528DD6C800), frame # 1544
+[2020.12.10-17.16.15:791][544]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001524D507B00), frame # 1544
+[2020.12.10-17.16.15:791][544]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2020.12.10-17.16.15:791][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GeometryCatcher/Maps/TutorialMap.TutorialMap to /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003213s)
+[2020.12.10-17.16.15:823][544]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.12.10-17.16.15:824][544]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.10-17.16.15:824][544]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.10-17.16.15:824][544]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.10-17.16.15:824][544]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.10-17.16.15:824][544]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.10-17.16.15:824][544]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.10-17.16.15:824][544]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.10-17.16.15:824][544]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.10-17.16.15:824][544]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.10-17.16.15:824][544]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.10-17.16.15:828][544]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.10-17.16.15:829][544]LogAudioMixer: Display: 1: FrontRight
+[2020.12.10-17.16.15:829][544]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.10-17.16.15:829][544]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.10-17.16.15:829][544]LogAudioMixer: Display: 4: BackLeft
+[2020.12.10-17.16.15:829][544]LogAudioMixer: Display: 5: BackRight
+[2020.12.10-17.16.15:829][544]LogAudioMixer: Display: 6: SideLeft
+[2020.12.10-17.16.15:829][544]LogAudioMixer: Display: 7: SideRight
+[2020.12.10-17.16.15:866][544]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.12.10-17.16.15:866][544]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.10-17.16.15:866][544]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.10-17.16.15:866][544]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.10-17.16.15:866][544]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.10-17.16.15:879][544]LogInit: FAudioDevice initialized.
+[2020.12.10-17.16.15:889][544]LogLoad: Game class is 'GM_Tutorial_C'
+[2020.12.10-17.16.15:890][544]LogWorld: Bringing World /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2020.12.10-20.16.15
+[2020.12.10-17.16.15:890][544]LogWorld: Bringing up level for play took: 0.000429
+[2020.12.10-17.16.15:890][544]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.12.10-17.16.15:892][544]PIE: Server logged in
+[2020.12.10-17.16.15:893][544]PIE: Play in editor total start time 0,13 seconds.
+[2020.12.10-17.16.16:038][553]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.16:337][571]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.16:637][589]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.16:937][607]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.17:237][625]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.17:321][630]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.16.17:321][630]LogBlueprintUserMessages: [BP_Shape_C_0] 0
+[2020.12.10-17.16.17:537][643]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.17:637][649]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.16.17:637][649]LogBlueprintUserMessages: [BP_Shape_C_1] 0
+[2020.12.10-17.16.17:837][661]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.18:137][679]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.18:437][697]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.18:504][701]LogBlueprintUserMessages: [BP_GameManager] Yellow
+[2020.12.10-17.16.18:504][701]LogBlueprintUserMessages: [BP_Shape_C_4] 4
+[2020.12.10-17.16.18:737][715]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.19:037][733]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.19:120][738]LogBlueprintUserMessages: [BP_GameManager] Yellow
+[2020.12.10-17.16.19:120][738]LogBlueprintUserMessages: [BP_Shape_C_6] 4
+[2020.12.10-17.16.19:337][751]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.19:637][769]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.19:937][787]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.20:237][805]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.20:538][823]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.20:636][829]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.16.20:636][829]LogBlueprintUserMessages: [BP_Shape_C_11] 2
+[2020.12.10-17.16.20:837][841]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.21:137][859]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.21:404][875]LogBlueprintUserMessages: [BP_GameManager] Pink
+[2020.12.10-17.16.21:404][875]LogBlueprintUserMessages: [BP_Shape_C_13] 3
+[2020.12.10-17.16.21:437][877]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.21:737][895]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.21:804][899]LogBlueprintUserMessages: [BP_GameManager] Pink
+[2020.12.10-17.16.21:804][899]LogBlueprintUserMessages: [BP_Shape_C_15] 3
+[2020.12.10-17.16.22:037][913]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.22:338][931]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.22:387][934]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.16.22:387][934]LogBlueprintUserMessages: [BP_Shape_C_17] 0
+[2020.12.10-17.16.22:637][949]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.22:937][967]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.22:937][967]LogBlueprintUserMessages: [BP_GameManager] Yellow
+[2020.12.10-17.16.22:937][967]LogBlueprintUserMessages: [BP_Shape_C_18] 4
+[2020.12.10-17.16.23:021][972]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.16.23:021][972]LogBlueprintUserMessages: [BP_Shape_C_19] 0
+[2020.12.10-17.16.23:237][985]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.23:537][  3]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.23:571][  5]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.16.23:571][  5]LogBlueprintUserMessages: [BP_Shape_C_21] 2
+[2020.12.10-17.16.23:837][ 21]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.23:920][ 26]LogBlueprintUserMessages: [BP_GameManager] Pink
+[2020.12.10-17.16.23:920][ 26]LogBlueprintUserMessages: [BP_Shape_C_22] 3
+[2020.12.10-17.16.24:137][ 39]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.24:438][ 57]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.24:554][ 64]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.16.24:554][ 64]LogBlueprintUserMessages: [BP_Shape_C_24] 0
+[2020.12.10-17.16.24:737][ 75]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.24:937][ 87]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.16.24:937][ 87]LogBlueprintUserMessages: [BP_Shape_C_25] 2
+[2020.12.10-17.16.25:037][ 93]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.25:337][111]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.25:420][116]LogBlueprintUserMessages: [BP_GameManager] Pink
+[2020.12.10-17.16.25:421][116]LogBlueprintUserMessages: [BP_Shape_C_27] 3
+[2020.12.10-17.16.25:637][129]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.26:020][152]LogBlueprintUserMessages: [BP_GameManager] Green
+[2020.12.10-17.16.26:020][152]LogBlueprintUserMessages: [BP_Shape_C_29] 1
+[2020.12.10-17.16.26:554][184]LogBlueprintUserMessages: [BP_GameManager] Yellow
+[2020.12.10-17.16.26:554][184]LogBlueprintUserMessages: [BP_Shape_C_31] 4
+[2020.12.10-17.16.26:937][207]LogBlueprintUserMessages: [BP_GameManager] Yellow
+[2020.12.10-17.16.26:937][207]LogBlueprintUserMessages: [BP_Shape_C_32] 4
+[2020.12.10-17.16.36:558][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-17.16.36:558][782]LogWorld: BeginTearingDown for /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap
+[2020.12.10-17.16.36:558][782]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-17.16.36:558][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-17.16.36:564][782]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.10-17.16.36:568][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-17.16.36:616][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-17.16.36:618][782]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001524D507B00), frame # 2782
+[2020.12.10-17.16.36:618][782]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001528DD6C800), frame # 2782
+[2020.12.10-17.16.36:620][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.12.10-17.16.36:644][783]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.12.10-17.16.37:914][859]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.10-17.16.37:925][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.10-17.16.37:926][859]PIE: New page: PIE session: TutorialMap (10 дек. 2020 г., 23:16:37)
+[2020.12.10-17.16.37:926][859]LogPlayLevel: Creating play world package: /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap
+[2020.12.10-17.16.37:928][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002292s)
+[2020.12.10-17.16.37:929][859]LogAIModule: Creating AISystem for world TutorialMap
+[2020.12.10-17.16.37:929][859]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000152842B9800), frame # 2859
+[2020.12.10-17.16.37:929][859]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001524D43BD80), frame # 2859
+[2020.12.10-17.16.37:929][859]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2020.12.10-17.16.37:929][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GeometryCatcher/Maps/TutorialMap.TutorialMap to /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003195s)
+[2020.12.10-17.16.37:950][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.12.10-17.16.37:951][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.10-17.16.37:951][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.10-17.16.37:951][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.10-17.16.37:951][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.10-17.16.37:951][859]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.10-17.16.37:951][859]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.10-17.16.37:951][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.10-17.16.37:951][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.10-17.16.37:952][859]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.10-17.16.37:952][859]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.10-17.16.37:956][859]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.10-17.16.37:956][859]LogAudioMixer: Display: 1: FrontRight
+[2020.12.10-17.16.37:956][859]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.10-17.16.37:956][859]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.10-17.16.37:956][859]LogAudioMixer: Display: 4: BackLeft
+[2020.12.10-17.16.37:956][859]LogAudioMixer: Display: 5: BackRight
+[2020.12.10-17.16.37:956][859]LogAudioMixer: Display: 6: SideLeft
+[2020.12.10-17.16.37:956][859]LogAudioMixer: Display: 7: SideRight
+[2020.12.10-17.16.37:993][859]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.12.10-17.16.37:994][859]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.10-17.16.37:994][859]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.10-17.16.37:994][859]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.10-17.16.37:994][859]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.10-17.16.38:007][859]LogInit: FAudioDevice initialized.
+[2020.12.10-17.16.38:017][859]LogLoad: Game class is 'GM_Tutorial_C'
+[2020.12.10-17.16.38:018][859]LogWorld: Bringing World /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2020.12.10-20.16.38
+[2020.12.10-17.16.38:018][859]LogWorld: Bringing up level for play took: 0.000439
+[2020.12.10-17.16.38:018][859]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.12.10-17.16.38:020][859]PIE: Server logged in
+[2020.12.10-17.16.38:021][859]PIE: Play in editor total start time 0,096 seconds.
+[2020.12.10-17.16.38:199][870]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.38:498][888]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.38:798][906]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.39:098][924]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.39:399][942]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.39:465][946]LogBlueprintUserMessages: [BP_GameManager] Pink
+[2020.12.10-17.16.39:465][946]LogBlueprintUserMessages: [BP_Shape_C_0] 3
+[2020.12.10-17.16.39:698][960]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.39:998][978]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.40:298][996]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.40:598][ 14]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.40:898][ 32]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.40:981][ 37]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.16.40:981][ 37]LogBlueprintUserMessages: [BP_Shape_C_5] 2
+[2020.12.10-17.16.41:198][ 50]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.41:281][ 55]LogBlueprintUserMessages: [BP_GameManager] Green
+[2020.12.10-17.16.41:281][ 55]LogBlueprintUserMessages: [BP_Shape_C_6] 1
+[2020.12.10-17.16.41:498][ 68]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.41:798][ 86]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.42:098][104]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.42:399][122]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.42:699][140]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.42:781][145]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.16.42:781][145]LogBlueprintUserMessages: [BP_Shape_C_11] 2
+[2020.12.10-17.16.42:999][158]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.43:098][164]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.16.43:098][164]LogBlueprintUserMessages: [BP_Shape_C_12] 0
+[2020.12.10-17.16.43:298][176]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.43:598][194]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.43:898][212]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.44:198][230]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.44:298][236]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.16.44:298][236]LogBlueprintUserMessages: [BP_Shape_C_16] 2
+[2020.12.10-17.16.44:498][248]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.44:798][266]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.16.45:098][284]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.45:165][288]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.16.45:165][288]LogBlueprintUserMessages: [BP_Shape_C_19] 2
+[2020.12.10-17.16.45:398][302]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.45:699][320]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.45:998][338]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.46:298][356]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.46:599][374]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.16.46:898][392]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.16.47:199][410]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.47:265][414]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.16.47:265][414]LogBlueprintUserMessages: [BP_Shape_C_26] 2
+[2020.12.10-17.16.47:499][428]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.16.47:598][434]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.16.47:598][434]LogBlueprintUserMessages: [BP_Shape_C_27] 2
+[2020.12.10-17.16.47:619][436]LogHttp: Warning: 0000015284798100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.12.10-17.16.47:619][436]LogHttp: Warning: 0000015284798100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.12.10-17.16.47:619][436]LogHttp: Warning: 0000015284798100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.12.10-17.16.47:619][436]LogHttp: Warning: 0000015284798100: libcurl info message cache 1 (Closing connection 0)
+[2020.12.10-17.16.47:619][436]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.12.10-17.16.47:799][446]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.16.48:166][468]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.16.48:166][468]LogBlueprintUserMessages: [BP_Shape_C_29] 2
+[2020.12.10-17.16.48:515][489]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.16.48:515][489]LogBlueprintUserMessages: [BP_Shape_C_30] 0
+[2020.12.10-17.16.48:932][514]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.16.48:932][514]LogBlueprintUserMessages: [BP_Shape_C_31] 0
+[2020.12.10-17.16.49:098][524]LogBlueprintUserMessages: [BP_GameManager] Green
+[2020.12.10-17.16.49:098][524]LogBlueprintUserMessages: [BP_Shape_C_32] 1
+[2020.12.10-17.16.51:078][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-17.16.51:078][641]LogWorld: BeginTearingDown for /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap
+[2020.12.10-17.16.51:078][641]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-17.16.51:078][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-17.16.51:087][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.10-17.16.51:090][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-17.16.51:110][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-17.16.51:132][641]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001524D43BD80), frame # 3641
+[2020.12.10-17.16.51:132][641]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000152842B9800), frame # 3641
+[2020.12.10-17.16.51:135][641]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.12.10-17.16.51:157][642]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.12.10-17.17.12:240][888]LogSlate: Took 0.000723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.12.10-17.18.47:665][596]LogHttp: Warning: 00000152710B0F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.12.10-17.18.47:665][596]LogHttp: Warning: 00000152710B0F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.12.10-17.18.47:665][596]LogHttp: Warning: 00000152710B0F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.12.10-17.18.47:665][596]LogHttp: Warning: 00000152710B0F00: libcurl info message cache 1 (Closing connection 1)
+[2020.12.10-17.18.47:665][596]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.12.10-17.19.12:026][ 47]BlueprintLog: New page: Compile BP_HUD
+[2020.12.10-17.19.12:060][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.12.10-17.19.12:107][ 47]LogSlate: Took 0.000583 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.12.10-17.19.15:726][260]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.10-17.19.15:738][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.10-17.19.15:738][260]PIE: New page: PIE session: TutorialMap (10 дек. 2020 г., 23:19:15)
+[2020.12.10-17.19.15:738][260]LogPlayLevel: Creating play world package: /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap
+[2020.12.10-17.19.15:740][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002292s)
+[2020.12.10-17.19.15:741][260]LogAIModule: Creating AISystem for world TutorialMap
+[2020.12.10-17.19.15:741][260]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015281E5BE00), frame # 12260
+[2020.12.10-17.19.15:741][260]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001524FE6AE80), frame # 12260
+[2020.12.10-17.19.15:741][260]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2020.12.10-17.19.15:741][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GeometryCatcher/Maps/TutorialMap.TutorialMap to /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003185s)
+[2020.12.10-17.19.15:763][260]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.12.10-17.19.15:764][260]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.10-17.19.15:764][260]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.10-17.19.15:764][260]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.10-17.19.15:764][260]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.10-17.19.15:764][260]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.10-17.19.15:764][260]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.10-17.19.15:764][260]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.10-17.19.15:764][260]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.10-17.19.15:765][260]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.10-17.19.15:765][260]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.10-17.19.15:769][260]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.10-17.19.15:769][260]LogAudioMixer: Display: 1: FrontRight
+[2020.12.10-17.19.15:769][260]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.10-17.19.15:769][260]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.10-17.19.15:769][260]LogAudioMixer: Display: 4: BackLeft
+[2020.12.10-17.19.15:769][260]LogAudioMixer: Display: 5: BackRight
+[2020.12.10-17.19.15:769][260]LogAudioMixer: Display: 6: SideLeft
+[2020.12.10-17.19.15:769][260]LogAudioMixer: Display: 7: SideRight
+[2020.12.10-17.19.15:807][260]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2020.12.10-17.19.15:807][260]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.10-17.19.15:807][260]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.10-17.19.15:807][260]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.10-17.19.15:808][260]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.10-17.19.15:820][260]LogInit: FAudioDevice initialized.
+[2020.12.10-17.19.15:830][260]LogLoad: Game class is 'GM_Tutorial_C'
+[2020.12.10-17.19.15:831][260]LogWorld: Bringing World /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2020.12.10-20.19.15
+[2020.12.10-17.19.15:831][260]LogWorld: Bringing up level for play took: 0.000420
+[2020.12.10-17.19.15:831][260]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.12.10-17.19.15:834][260]PIE: Server logged in
+[2020.12.10-17.19.15:834][260]PIE: Play in editor total start time 0,098 seconds.
+[2020.12.10-17.19.16:012][271]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.19.16:312][289]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.19.16:612][307]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.19.16:912][325]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.19.17:211][343]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.19.17:512][361]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.19.17:812][379]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.19.18:112][397]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.19.18:195][402]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.19.18:195][402]LogBlueprintUserMessages: [BP_Shape_C_3] 0
+[2020.12.10-17.19.18:412][415]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.19.18:478][419]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.19.18:478][419]LogBlueprintUserMessages: [BP_Shape_C_4] 2
+[2020.12.10-17.19.18:712][433]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.19.19:012][451]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.19.19:312][469]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.19.19:612][487]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.19.19:678][491]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.19.19:679][491]LogBlueprintUserMessages: [BP_Shape_C_8] 2
+[2020.12.10-17.19.19:912][505]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.19.19:995][510]LogBlueprintUserMessages: [BP_GameManager] Red
+[2020.12.10-17.19.19:995][510]LogBlueprintUserMessages: [BP_Shape_C_9] 0
+[2020.12.10-17.19.20:212][523]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.19.20:511][541]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.19.20:812][559]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.19.21:012][571]LogBlueprintUserMessages: [BP_GameManager] Blue
+[2020.12.10-17.19.21:012][571]LogBlueprintUserMessages: [BP_Shape_C_12] 2
+[2020.12.10-17.19.21:112][577]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.19.21:412][595]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.19.21:712][613]LogBlueprintUserMessages: [BP_GameManager] 3
+[2020.12.10-17.19.22:011][631]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.19.22:312][649]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.19.22:328][650]LogBlueprintUserMessages: [BP_GameManager] Green
+[2020.12.10-17.19.22:328][650]LogBlueprintUserMessages: [BP_Shape_C_17] 1
+[2020.12.10-17.19.22:612][667]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.19.22:911][685]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.19.23:212][703]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.19.23:513][721]LogBlueprintUserMessages: [BP_GameManager] 4
+[2020.12.10-17.19.23:529][722]LogBlueprintUserMessages: [BP_GameManager] Yellow
+[2020.12.10-17.19.23:529][722]LogBlueprintUserMessages: [BP_Shape_C_21] 4
+[2020.12.10-17.19.23:812][739]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.19.24:112][757]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.19.24:212][763]LogBlueprintUserMessages: [BP_GameManager] Yellow
+[2020.12.10-17.19.24:212][763]LogBlueprintUserMessages: [BP_Shape_C_23] 4
+[2020.12.10-17.19.24:412][775]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.19.24:578][785]LogBlueprintUserMessages: [BP_GameManager] Yellow
+[2020.12.10-17.19.24:578][785]LogBlueprintUserMessages: [BP_Shape_C_24] 4
+[2020.12.10-17.19.24:712][793]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.19.25:012][811]LogBlueprintUserMessages: [BP_GameManager] 1
+[2020.12.10-17.19.25:079][815]LogBlueprintUserMessages: [BP_GameManager] Green
+[2020.12.10-17.19.25:079][815]LogBlueprintUserMessages: [BP_Shape_C_26] 1
+[2020.12.10-17.19.25:312][829]LogBlueprintUserMessages: [BP_GameManager] 2
+[2020.12.10-17.19.25:395][834]LogBlueprintUserMessages: [BP_GameManager] Green
+[2020.12.10-17.19.25:395][834]LogBlueprintUserMessages: [BP_Shape_C_27] 1
+[2020.12.10-17.19.25:612][847]LogBlueprintUserMessages: [BP_GameManager] 0
+[2020.12.10-17.19.26:029][872]LogBlueprintUserMessages: [BP_GameManager] Green
+[2020.12.10-17.19.26:029][872]LogBlueprintUserMessages: [BP_Shape_C_29] 1
+[2020.12.10-17.19.31:778][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-17.19.31:778][215]LogWorld: BeginTearingDown for /Game/GeometryCatcher/Maps/UEDPIE_0_TutorialMap
+[2020.12.10-17.19.31:778][215]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-17.19.31:778][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-17.19.31:787][215]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.10-17.19.31:791][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-17.19.31:829][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-17.19.31:830][215]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001524FE6AE80), frame # 13215
+[2020.12.10-17.19.31:830][215]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015281E5BE00), frame # 13215
+[2020.12.10-17.19.31:832][215]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.12.10-17.19.31:869][217]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.12.10-17.20.47:698][752]LogHttp: Warning: 00000152842A6400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.12.10-17.20.47:698][752]LogHttp: Warning: 00000152842A6400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.12.10-17.20.47:698][752]LogHttp: Warning: 00000152842A6400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.12.10-17.20.47:698][752]LogHttp: Warning: 00000152842A6400: libcurl info message cache 1 (Closing connection 2)
+[2020.12.10-17.20.47:698][752]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.12.10-17.22.06:968][451]LogEditorTransaction: Undo Delete current selection
+[2020.12.10-17.22.47:716][874]LogHttp: Warning: 000001528E99A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.12.10-17.22.47:716][874]LogHttp: Warning: 000001528E99A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.12.10-17.22.47:716][874]LogHttp: Warning: 000001528E99A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.12.10-17.22.47:716][874]LogHttp: Warning: 000001528E99A400: libcurl info message cache 1 (Closing connection 3)
+[2020.12.10-17.22.47:716][874]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.12.10-17.24.26:609][779]BlueprintLog: New page: Collapse to Function
+[2020.12.10-17.24.37:265][405]LogEditorTransaction: Undo Delete current selection
+[2020.12.10-17.24.38:717][475]LogEditorTransaction: Undo Move Node
+[2020.12.10-17.24.39:349][511]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2020.12.10-17.24.47:739][ 12]LogHttp: Warning: 00000152848FF900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.12.10-17.24.47:739][ 12]LogHttp: Warning: 00000152848FF900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.12.10-17.24.47:739][ 12]LogHttp: Warning: 00000152848FF900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.12.10-17.24.47:739][ 12]LogHttp: Warning: 00000152848FF900: libcurl info message cache 1 (Closing connection 4)
+[2020.12.10-17.24.47:739][ 12]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.12.10-17.24.50:741][186]BlueprintLog: New page: Collapse to Function
+[2020.12.10-17.24.57:031][561]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2020.12.10-17.26.47:789][902]LogHttp: Warning: 00000152345E1D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.12.10-17.26.47:789][902]LogHttp: Warning: 00000152345E1D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.12.10-17.26.47:789][902]LogHttp: Warning: 00000152345E1D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.12.10-17.26.47:789][902]LogHttp: Warning: 00000152345E1D00: libcurl info message cache 1 (Closing connection 5)
+[2020.12.10-17.26.47:789][902]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.12.10-17.26.56:215][398]BlueprintLog: New page: Compile BP_HUD
+[2020.12.10-17.26.56:255][398]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.12.10-17.27.59:019][132]BlueprintLog: New page: Collapse to Macro
+[2020.12.10-17.28.25:520][717]BlueprintLog: New page: Compile BP_HUD
+[2020.12.10-17.28.25:555][717]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.12.10-17.28.47:839][ 34]LogHttp: Warning: 0000015235523200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.12.10-17.28.47:839][ 34]LogHttp: Warning: 0000015235523200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.12.10-17.28.47:839][ 34]LogHttp: Warning: 0000015235523200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.12.10-17.28.47:839][ 34]LogHttp: Warning: 0000015235523200: libcurl info message cache 1 (Closing connection 6)
+[2020.12.10-17.28.47:839][ 34]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.12.10-17.28.51:061][222]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.12.10-17.28.51:062][222]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GeometryCatcher/Maps/TutorialMap' took 0.025
+[2020.12.10-17.28.51:062][222]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GeometryCatcher/UI/BP_HUD] ([1] browsable assets)...
+[2020.12.10-17.28.51:062][222]OBJ SavePackage: Finished generating thumbnails for package [/Game/GeometryCatcher/UI/BP_HUD]
+[2020.12.10-17.28.51:093][222]LogSavePackage: Moving '../../../../../../Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/BP_HUD_Auto1534524C543C9D39D58510D8709F08682.tmp' to '../../../../../../Users/79102/Downloads/GeometryCatcherStarter/GeometryCatcherStarter/Saved/Autosaves/Game/GeometryCatcher/UI/BP_HUD_Auto1.uasset'
+[2020.12.10-17.28.51:095][222]LogFileHelpers: Auto-saving content packages took 0.032
+[2020.12.10-17.29.44:229][401]BlueprintLog: New page: Compile BP_HUD
+[2020.12.10-17.29.44:264][401]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.12.10-17.30.06:357][703]LogEditorTransaction: Undo Straighten Connection(s)
+[2020.12.10-17.30.24:356][764]BlueprintLog: New page: Compile BP_HUD
+[2020.12.10-17.30.24:390][764]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.12.10-17.30.47:856][164]LogHttp: Warning: 00000152903F4F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.12.10-17.30.47:856][164]LogHttp: Warning: 00000152903F4F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.12.10-17.30.47:856][164]LogHttp: Warning: 00000152903F4F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.12.10-17.30.47:856][164]LogHttp: Warning: 00000152903F4F00: libcurl info message cache 1 (Closing connection 7)
+[2020.12.10-17.30.47:856][164]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.12.10-17.32.47:888][336]LogHttp: Warning: 000001523588E400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.12.10-17.32.47:888][336]LogHttp: Warning: 000001523588E400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.12.10-17.32.47:888][336]LogHttp: Warning: 000001523588E400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.12.10-17.32.47:888][336]LogHttp: Warning: 000001523588E400: libcurl info message cache 1 (Closing connection 8)
+[2020.12.10-17.32.47:888][336]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8DDCD11F-402C-B8EA-749B-E7ABFD0A5414%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=281c0fcd4459221b46b7a0bfb67ab215%7C30a4c1a8fd1d4ec78c10004a4176ef35%7C6a2cc822-90c4-4202-9847-d0cd1ab1d386&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.12.10-17.33.07:424][507]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.12.10-17.33.07:424][507]LogWindows: Windows GetLastError: Операция успешно завершена. (0)
+[2020.12.10-17.33.09:689][507]LogWindows: Error: === Critical error: ===
+[2020.12.10-17.33.09:689][507]LogWindows: Error: 
+[2020.12.10-17.33.09:689][507]LogWindows: Error: Assertion failed: Result [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Editor/UnrealEd/Private/Kismet2/BlueprintEditorUtils.cpp] [Line: 2091] 
+[2020.12.10-17.33.09:689][507]LogWindows: Error: FBlueprintEditorUtils::FindBlueprintForNodeChecked(/Game/GeometryCatcher/UI/BP_HUD.Text To Int:K2Node_Tunnel_0) failed to find a Blueprint.
+[2020.12.10-17.33.09:689][507]LogWindows: Error: 
+[2020.12.10-17.33.09:689][507]LogWindows: Error: 
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffbdb343b29 KERNELBASE.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba2bfe9e6 UE4Editor-Core.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba2c01dc8 UE4Editor-Core.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba298e53d UE4Editor-Core.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba29197b5 UE4Editor-Core.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba291baf0 UE4Editor-Core.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb94b5cc74 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb94302b63 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb93308706 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb932b0db0 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb924cd94c UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb924cd58f UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb927c7003 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb927c5657 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb9279f1b0 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb927bb63f UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb927bc283 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb936bbfa1 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb936fb224 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffb936f83c9 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7031 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd4fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba21cc664 UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd5915 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd8248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd5aab UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd4fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd8248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba21cea00 UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd4fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd8248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba21cea00 UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd4fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd8248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba21cea00 UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd5915 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd4fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd8248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd5aab UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd4fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd4fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba21cc664 UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd5915 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd8248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd5aab UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd4fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd8248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba21cea00 UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd5915 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd4fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:689][507]LogWindows: Error: [Callstack] 0x00007ffba0dd8248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba0dd5aab UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba0dd8248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba0dd5aab UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba0dd5915 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba0dd4fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba0dd7866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba0dd8357 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba0d39770 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba0dd85e4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba1f99747 UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba1fca669 UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba1ff0af0 UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffba1ff0024 UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ff7ea108735 UE4Editor.exe!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ff7ea11ba7c UE4Editor.exe!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ff7ea11bb5a UE4Editor.exe!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ff7ea12e31d UE4Editor.exe!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ff7ea13145a UE4Editor.exe!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffbdd237c24 KERNEL32.DLL!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: [Callstack] 0x00007ffbdd56d4d1 ntdll.dll!UnknownFunction []
+[2020.12.10-17.33.09:690][507]LogWindows: Error: 
+[2020.12.10-17.33.09:698][507]LogExit: Executing StaticShutdownAfterError
+[2020.12.10-17.33.09:702][507]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.12.10-17.33.09:702][507]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.12.10-17.33.09:705][507]Log file closed, 12/10/20 20:33:09
